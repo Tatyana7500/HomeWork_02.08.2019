@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+</head>
+<body>
+<div id="mocha"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js"></script>
+<script>
+    mocha.setup('bdd');
+    let assert = chai.assert;
+</script>
+<script src="../js/protoList.js"></script>
+<script src="../js/llist1.js"></script>
+<script src="./js/testsllist1.js"></script>
+<script>
+    mocha.run();
+</script>
+</body>
+</html>
